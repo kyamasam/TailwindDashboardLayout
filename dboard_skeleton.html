@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Dashboard Layout</title>
+</head>
+<body class="grid grid-cols-12 relative bg-green-200 h-screen w-screen">
+<!-- start leftbar-->
+<div class="col-span-2 border h-full bg-red-400 overflow-auto">
+    <!-- menu bar in topbar-->
+    <div class="h-8 bg-blue-400 border sticky top-0">
+        <p>Company Title</p>
+    </div>
+    <!-- menu bar in topbar-->
+    <div class="overflow-auto flex flex-col gap-4">
+        <div class="h-10 bg-white object-fill">1</div>
+        <div class="h-10 bg-white object-fill">2</div>
+        <div class="h-10 bg-white object-fill">3</div>
+        <div class="h-10 bg-white object-fill">4</div>
+        <div class="h-10 bg-white object-fill">5</div>
+        <div class="h-10 bg-white object-fill">6</div>
+        <div class="h-10 bg-white object-fill">7</div>
+        <div class="h-10 bg-white object-fill">8</div>
+        <div class="h-10 bg-white object-fill">9</div>
+        <div class="h-10 bg-white object-fill">10</div>
+        <div class="h-10 bg-white object-fill">11</div>
+        <div class="h-10 bg-white object-fill">12</div>
+        <div class="h-10 bg-white object-fill">13</div>
+        <div class="h-10 bg-white object-fill">14</div>
+        <div class="h-10 bg-white object-fill">15</div>
+
+    </div>
+
+</div>
+<!-- end leftbar-->
+<!--start right bar-->
+<div class="col-span-10 border bg-orange-300 h-full relative overflow-auto">
+    <!-- topbar-->
+    <div class="h-8 bg-blue-400 w-full border  sticky top-0 flex fle-row justify-between">
+        <p>Company Department</p>
+        <p>User</p>
+    </div>
+    <!-- end topbar-->
+
+
+    <!-- start inner content-->
+    <div class="overflow-x-auto flex flex-col gap-4">
+
+        <div class="h-40 bg-white w-24">1</div>
+        <div class="h-40 bg-white w-24">2</div>
+        <div class="h-40 bg-white w-24">3</div>
+        <div class="flex flex-row gap-2 bg-red-500 overflow-scroll">
+            <div class="h-40 bg-orange-200 w-64 flex-none">1</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">2</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">3</div>
+            <div class="h-40 bg-white w-64 flex-none">4</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">5</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">6</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">7</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">8</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">9</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">10</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">11</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">12</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">13</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">14</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">15</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">16</div>
+            <div class="h-40 bg-orange-200 w-64 flex-none">17</div>
+        </div>
+        <div class="h-40 bg-white w-24">4</div>
+        <div class="h-40 bg-white w-24">5</div>
+        <div class="h-40 bg-white w-24">6</div>
+        <div class="h-40 bg-white w-24">7</div>
+        <div class="h-40 bg-white w-24">8</div>
+    </div>
+    <!-- end inner content-->
+</div>
+<!--end right bar-->
+
+
+
+</body>
+</html>
